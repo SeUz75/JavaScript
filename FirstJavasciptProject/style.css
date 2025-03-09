@@ -1,0 +1,29 @@
+body{
+    
+}
+
+
+#background-clip{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.calculator{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleOfPage{
+    display : flex;
+    justify-content: center;
+    background-color: #000005;
+    color: aliceblue;
+    opacity: 0.7;
+    
+}

@@ -3,14 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        
     </head>
     <body>
-        <h1>Hello, javaScript </h1>
-        <p id="demo"> A paragraph</p>
-        <button type="button" onclick="myFunction()"> Try it </button>
+        <video autoplay loop muted playsinline id="background-clip">
+            <source src="betterVideo.webm" type="video/mp4">
+            your browswer does not support the tag
+        </video>
+        <div class="calculator">
+            <h1 class="titleOfPage"> Welcome to my website ! Do you wanna know how close you are ? </h1>
 
+           
+           <label class="label"> Latitude : </label>
+            <input type="number" id="latitude" placeholder="Enter latitude">
 
+           <label class="label"> Longitude : </label>
+           <input type="number" id="longitude" placeholder="Enter Longitude">
 
+           <label>Select object : </label>
+           <select id="object">
+            <option value="moon"> Moon</option>
+            <option value="sun"> Sun</option>
+            <option value="Mars"> Mars</option>
+           </select>
+
+           <h2> id="result"></h2>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
